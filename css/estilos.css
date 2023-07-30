@@ -1,0 +1,532 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*generales*/
+
+body{
+    background-color: black;
+}
+
+h1{
+color: aliceblue;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 200;
+letter-spacing: 10px;
+margin-top: 20px;
+padding: 5px;
+}
+
+
+p{
+    color: aliceblue;
+    font-size: 17px;
+}
+
+form{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+ }
+
+
+ /* nav bar*/
+
+ .logo{
+    width: 60px
+ }
+
+ .fuentes{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+/*index*/
+.h1index{
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+@media screen and (max-width:900px) {
+    .h1Index
+    { 
+        font-size: 35px;
+     }
+    
+}
+
+.sectionIndex
+{
+background-image: url(../img/Img_Index.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 600px;
+display: flex;
+justify-content:center;
+padding: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .sectionIndex
+    { 
+        background-image: url(../img/Img_Index.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+     }
+    
+}
+
+.sectionIndexDos
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width:900px) {
+    .sectionIndexDos
+    { 
+        flex-direction: column;
+     }
+    
+}
+
+.divIndex a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:brown;
+    padding: 12px;
+    border: solid 1px brown;
+    text-align: center;
+    margin: 10px 0;
+    display: block;
+    width: 250px;
+}
+
+.divIndex
+{
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divIndex p 
+{
+    padding: 0px 50px;
+    font-size: 25px;
+}
+
+
+.imgIndex{
+   margin: 0 auto;
+   max-width: 500px;
+}
+@media screen and (max-width:900px) {
+    .imgIndex 
+    { 
+        flex-direction: column;
+        max-width: 300px;
+     }
+    
+     .divIndex p 
+     {
+padding: 0px 30px;
+     }
+
+     .divIndex 
+     {
+        max-width: 100%;
+     }
+}
+
+
+
+/*tours*/
+h2 {
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .gridH
+  {
+      border-bottom: solid red 1px;
+      border-spacing: 0;
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: aliceblue;
+    }
+    
+    .gridH a{
+        color: brown;
+        text-decoration: none;
+        font-weight: bold; 
+    }
+    
+    .gridPadre
+    {
+        display: grid;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: repeat(8, 70px);
+        margin: 0 auto;
+    }
+
+    .divGrid
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+        margin-top: 70px;
+    }
+
+h4
+{
+    text-decoration: aliceblue;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.formTours
+{
+  margin:auto;
+  width: 400px;
+  margin-bottom: 110px;
+}
+
+.formTours button
+{
+    background-color: brown;
+    border-color: brown;
+}
+
+/*discografía*/
+
+.cardsDisco
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;  
+}
+
+.card-title
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text
+{
+    color: gray;
+}
+
+.card-body
+{
+background-color: #FFFFF0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+.secVideo
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.divLink a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: brown;
+    border-bottom: solid red 1px;
+    padding: 2px;
+}
+
+@media screen and (max-width:900px) {
+    .cardsDisco
+    { 
+        flex-direction: column;
+        margin-bottom: 20px;
+     }
+
+     }
+@media screen and (max-width:900px) {
+    .card
+    { 
+        margin-bottom: 20px;
+     }
+
+     }
+
+     @media screen and (max-width:900px) 
+     {
+        .video iframe 
+        
+        {
+            width: 350px;
+            height: 200px;
+        }
+     }
+
+
+/* historia */
+.divH
+{
+    text-align: center;
+    margin: 70px;
+    color: aliceblue;
+}
+
+.divH p
+{
+    text-decoration: solid;
+}
+
+h4
+{
+    color: aliceblue;
+}
+
+.secImg img
+{
+    width: 100%;
+    max-width: 400px;
+}
+
+.secH4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secH4 h4
+{
+ padding:20px;
+}
+
+@media screen and (max-width: 900px) {
+    .secH4
+    {
+        flex-direction:column;
+    }
+}
+
+.divH2
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.divH2 img
+{
+    width: 400px;
+}
+
+.divH2 p{
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .divH2
+    {
+        flex-direction:column-reverse;
+    } 
+}
+
+.divH3
+{
+   display: flex;
+}
+
+.divH3 p{
+    padding: 20px;
+}
+
+.divH3 img
+{
+    width: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    .divH3
+    {
+        flex-direction:column;
+    }
+}
+
+.divH4
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.divH4 img{
+    width:400px;
+    }
+
+.divH4 p{
+    padding: 20px;
+}
+
+.subir
+{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-weight:400;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* contact */
+
+.divContact
+{
+   margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.imgContact
+{
+    margin: 30px;
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.contactForm
+
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactFormF
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.contactFormF input
+{
+width: 185px;
+}
+
+.contactFormT
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:900px) {
+    .divContact
+    { 
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 15px;
+     }
+
+     .imgContact
+     {
+        width: 300px;
+        height: 250px;
+     }
+    
+}
+
+
+/*footer*/
+
+footer
+{
+    height: 60px;
+    padding: 20px 5px;
+    border-top: 1px solid whitesmoke;
+}
+
+footer a{
+    text-decoration: none; 
+    padding-top: 5px;
+}
+
+footer p
+{
+  text-align: center; 
+  color: #f5f0f0;
+  font-size: 14px; 
+  padding-bottom: 50px;
+}
+
+.logoSpotify
+{
+    width: 20px;
+}
+
+.logoYoutube 
+{
+    width: 40px;
+}
+
+.logoIg
+{
+    width: 40px;
+}
+
+.logoTw
+{
+width: 20px;
+}
+
+.divFooter
+{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: baseline;
+ height: 40px;
+}
+
+@media screen and (max-width:900px) {
+    .divFooter
+    { 
+        flex-wrap: nowrap;
+     }
+     }
+
